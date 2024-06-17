@@ -24,6 +24,7 @@
 {%- endunless -%}
 
 <script src="{{ 'quantity-popover.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'custom-cart.js' | asset_url }}" defer="defer"></script>
 
 <cart-items class="gradient color-{{ section.settings.color_scheme }} isolate{% if cart == empty %} is-empty{% else %} section-{{ section.id }}-padding{% endif %}">
   <div class="page-width">
@@ -447,6 +448,7 @@
         {{ 'accessibility.loading' | t }}
       </p>
     </form>
+    <button class="btn-primary cart_clear">Remove All</button>
   </div>
 </cart-items>
 

@@ -215,6 +215,15 @@ cart-remove-button .icon-remove {
   text-transform: uppercase;
 }
 
+.cart_clear{
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.is-empty .cart_clear{
+  display: none;
+}
+
 @media screen and (max-width: 749px) {
   .cart-items,
   .cart-items thead,
