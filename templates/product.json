@@ -20,6 +20,12 @@
           "settings": {
           }
         },
+        "product_extra_info_QrzhhM": {
+          "type": "product_extra_info",
+          "settings": {
+            "product_extra_info": "<p>Product Extra Info<\/p>"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -55,6 +61,7 @@
         "vendor",
         "title",
         "price",
+        "product_extra_info_QrzhhM",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
