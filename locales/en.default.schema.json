@@ -2319,6 +2319,14 @@
               "label": "Third heading"
             }
           }
+        },
+        "product_extra_info": {
+          "name": "Product Extra Info",
+          "settings": {
+            "extra_info": {
+              "label": "Product Extra Info"
+            }
+          }
         }
       },
       "settings": {
