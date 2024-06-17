@@ -23,6 +23,10 @@
   margin: 0 1rem 0 0;
 }
 
+.price .price-item--sale{
+  color: red;
+}
+
 .price__regular .price-item--regular {
   margin-right: 0;
 }
